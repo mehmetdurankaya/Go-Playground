@@ -18,7 +18,7 @@ package main
 import "fmt"
 
 func main() {
-
+/*
 	var x=28
 	var y=4
 
@@ -38,6 +38,25 @@ func main() {
 
 	var toplam= sayi1+sayi2
 	fmt.Println("Sayi1 ve Sayi2 toplamı: ",toplam)
+	fmt.Println("Sayi1 değeri:",sayi1)
+	toplam+= sayi1 //toplam=tomlam+sayi1
 
-	
+	fmt.Println("Sayi1" ,sayi1, "ile toplam değişkeni",toplam-sayi1, "arasında toplama işlemi yapıldı ve sonuç toplam değişkenine atandı",toplam) 
+
+var a,b=3,4
+
+fmt.Println(a==b) //false
+fmt.Println(a!=b) //true
+*/	
+
+var x,y,z,t=1,1,5,6
+
+fmt.Printf(x==y && z==t) // ve operatörü false
+		//true  VE false
+
+fmt.Printf(x==y || z==t) // veya operatörü true
+		//true  VEYA false 
+
+
+
 }
