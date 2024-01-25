@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+	//"fmt"
 	"log"
 	"os"
 )
@@ -36,10 +36,34 @@ import (
 */
 
 func main() {
-	dosya, err := os.OpenFile("Veri.txt",os.O_WRONLY,0666)
+	dosya, err := os.OpenFile("Veri.txt",os.O_WRONLY|os.O_APPEND,0666)
 	defer dosya.Close()
 	if err !=nil{
 		log.Fatal(err)
 	}
-	fmt.Println("Dosya Açıldı")
+	/*
+	//fmt.Println("Dosya Açıldı")
+	//dosya.WriteString("Mehmet Duran Kaya")
+
+	yaziSlice:=[]byte ("Merhabalar Udemy ")
+	
+	dosyaYazma,err:=dosya.Write(yaziSlice)
+
+	if err !=nil{
+		log.Fatal(err)
+	}
+
+
+	fmt.Printf("Dosyaya %d Byte Boyutunda Yazı Yazıldı\n",dosyaYazma)
+	
+	*/
+	sehirler:=[]string{"Osmaniye","Adana","Hatay","Çanakkale","İzmir","Kütahya"}
+
+	for _,sehir:=range sehirler{
+		_,err:=dosya.WriteString(sehir+"\n")
+		if err!=nil{
+			log.Fatal(err)
+		}
+	}
+
 }
