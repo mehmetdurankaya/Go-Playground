@@ -1,0 +1,30 @@
+{
+  "sirket": {
+    "ad": "ABC Ltd.",
+    "kurulusTarihi": "2000-01-01",
+    "calisanlar": [
+      {
+        "ad": "Ahmet",
+        "soyad": "Yılmaz",
+        "yas": 30
+      },
+      {
+        "ad": "Ayşe",
+        "soyad": "Demir",
+        "yas": 25
+      }
+    ]
+  },
+  "urunler": [
+    {
+      "id": 1,
+      "isim": "Bilgisayar",
+      "fiyat": 2000
+    },
+    {
+      "id": 2,
+      "isim": "Telefon",
+      "fiyat": 1000
+    }
+  ]
+}

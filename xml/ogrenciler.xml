@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Ogrenciler>
+<Ogrenci>
+    <ogrNo>349</ogrNo>
+    <ogrAd>Mehmet Duran</ogrAd>
+    <ogrSoyad>Kaya</ogrSoyad>
+    <not>99</not>
+</Ogrenci>
+
+<ogrenci>
+    <ogrNo>555</ogrNo>
+    <ogrAd>Nizamettin</ogrAd>
+    <ogrSoyad>Kaya</ogrSoyad>
+    <not>100</not>
+</ogrenci>
+<ogrenci>
+    <ogrNo>111</ogrNo>
+    <ogrAd>Fatma</ogrAd>
+    <ogrSoyad>Kaya</ogrSoyad>
+    <not>97</not>
+</ogrenci>
+</Ogrenciler>

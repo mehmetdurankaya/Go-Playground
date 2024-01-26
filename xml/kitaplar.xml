@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Kitaplar>
+    <Kitap>
+        <isim>Harry Potter ve Felsefe Taşı</isim>
+        <yazar>J.K. Rowling</yazar>
+        <yayinevi>XYZ Yayınevi</yayinevi>
+        <fiyat>30.00 TL</fiyat>
+    </Kitap>
+    <Kitap>
+        <isim>1984</isim>
+        <yazar>George Orwell</yazar>
+        <yayinevi>ABC Yayınevi</yayinevi>
+        <fiyat>25.00 TL</fiyat>
+    </Kitap>
+    <Kitap>
+        <isim>Da Vinci Şifresi</isim>
+        <yazar>Dan Brown</yazar>
+        <yayinevi>DEF Yayınevi</yayinevi>
+        <fiyat>40.00 TL</fiyat>
+    </Kitap>
+</Kitaplar>

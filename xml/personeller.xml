@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <sirket>
+      <personel>
+          <tcno>1111111111</tcno>
+          <personelAd>Mehmet Duran</personelAd>
+          <personelSoyad>Kaya</personelSoyad>
+          <mevki>Full-Stack Developer</mevki>
+      </personel>
+      <personel>
+          <tcno>2222222222</tcno>
+          <personelAd>Nizamettin</personelAd>
+          <personelSoyad>Kaya</personelSoyad>
+          <mevki>Tester</mevki>
+      </personel>
+      <personel>
+          <tcno>3333333333</tcno>
+          <personelAd>Sibel</personelAd>
+          <personelSoyad>Kaya</personelSoyad>
+          <mevki>Manager</mevki>
+      </personel>
+  </sirket>

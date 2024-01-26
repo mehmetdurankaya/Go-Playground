@@ -1,0 +1,32 @@
+{
+  "ogrenciler": [
+    {
+      "ogrNo": 349,
+      "ogrAd": "Abdulhamid Kaan",
+      "ogrSoyad": "Söyler",
+      "ogrNot": 46
+
+    },
+    {
+      "ogrNo": 552,
+      "ogrAd": "Serhat",
+      "ogrSoyad": "Çetinkaya",
+      "ogrNot": 96
+    },
+    {
+      "ogrNo": 321,
+      "ogrAd": "Akay",
+      "ogrSoyad": "Şimşek",
+      "ogrNot": 75
+    },
+    {
+      "ogrNo": 911,
+      "ogrAd": "Ebru",
+      "ogrSoyad": "Akarsu",
+      "ogrNot": 88
+    }
+  ]
+
+
+
+}
